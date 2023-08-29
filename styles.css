@@ -5,10 +5,29 @@ body{
 p{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
-div:hover{
+/* div:hover{
     border: 4px solid #de7546;
+} */
+
+button:hover{
+    border: 4px solid #de7546;
+}
+
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    /* padding-inline: none;
+    padding-block: none; */
+    font-size: 16px;
 }
 
 .margin-header{
@@ -56,7 +75,7 @@ div:hover{
 .grid-inside-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 50% 50% 50%;
+    grid-template-rows: 50% 50%;
     column-gap: 20px;
     row-gap: 10px;
 }
